@@ -1,0 +1,10 @@
+{
+  "name": "lms-basic-ignite",
+  "version": "1.0.0",
+  "description": "Hệ thống LMS 5 cấp học dành cho Super Admin và Học viên",
+  "scripts": {
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "dev": "npx -y concurrently \"npm run dev:server\" \"npm run dev:client\""
+  }
+}

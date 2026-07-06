@@ -1,0 +1,239 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "username": "admin",
+      "password": "$2b$10$8bH3mJF6Y87fKs7YS/39Ke8CJ6.vkZt0GSWthIf9aqtJZWN.kiFXu",
+      "role": "admin",
+      "fullName": "Super Admin",
+      "level": 5,
+      "status": "active"
+    },
+    {
+      "id": "student-1",
+      "username": "student1",
+      "password": "$2b$10$1cwx2dVPsJ9wbaG3sEsCeerQNRPZ2QkRqcbgtDajdCtw4KdqWLMnS",
+      "role": "student",
+      "fullName": "Nguyễn Văn Học Viên 1",
+      "level": 1,
+      "status": "active"
+    },
+    {
+      "id": "student-2",
+      "username": "student2",
+      "password": "$2b$10$9tLrRy6VQlJQjEXZ4jlYkOrgvXiAadbX.20ZUiIklK2sfNTtQnQ0O",
+      "role": "student",
+      "fullName": "Trần Thị Học Viên 2",
+      "level": 3,
+      "status": "active"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "level": 1,
+      "title": "Tổng quan về Văn hóa Khách hàng và Dịch vụ",
+      "content": "Là các bạn đã thay đổi được cái gì? Cái câu hỏi thứ hai là các bạn tin tưởng vào điều gì? Tất cả các bạn những người đang xem tôi trên cái session trực tiếp này, các bạn có tin là các bạn là một phần của một công ty bán hàng trực tiếp doanh nghiệp xã hội không? Các bạn đang nghĩ là các bạn bán sản phẩm tạo ra thu nhập.\nDùng cái từ dịch chuyển là ignite là một sự dịch chuyển, không phải là một công ty sự dịch chuyển để tin và cái tiềm năng vô hạn của họ. Nó là một cái sự dịch chuyển để truyền cảm hứng tới những người đàn ông và những người phụ nữ bình thường với những giấc mơ phi thường. Nó không chỉ là một công ty, nó là một cái sự dịch chuyển.\nTất cả chúng tôi là những kẻ nổi loạn. Chúng tôi từ chối cái việc im lặng. Chúng tôi từ chối cái việc sống trong sợ hãi. Chúng tôi từ chối cái việc bị kiểm soát. Chúng tôi ra quyết định tạo ra một sự dịch chuyển. Cái dịch chuyển đầu tiên trong lịch sử của direct selling của bán hàng trực tiếp.\nNơi mà những cái con người là sự ưu tiên hàng đầu là tôi và bạn có cái sức mạnh ngày nay để có để thể thay đổi rất nhiều cuộc đời. Vậy thì các bạn cần phải tin là các bạn đang là một phần của cái sự dịch chuyển đó là khi mà các bạn thuyết trình các bạn không đang thuyết phục ai đó trở thành một doanh chủ với doanh nghiệp xã hội.\nCác bạn đang thuyết phục họ để đưa ra cái quyết định lớn nhất trong cuộc đời của họ. Các bạn biết đấy, tôi đã nói với một ai đó vào mấy ngày hôm trước là khi mà tôi làm một bản thuyết trình, tôi tin vào trái tim của mình là tôi đang cứu lấy cuộc đời của họ. Các bạn hiểu không ạ? Tôi thực sự tôi không đùa đâu. Tôi đang cứu lấy họ.\nTôi đang cứu họ khỏi cái việc chết đi một cách nghèo đói. Tôi đang cứu họ khỏi cái việc đi làm rồi về nhà, đi làm rồi về nhà, đi làm rồi về nhà. Tôi cứu lấy những cái mối quan hệ của họ, tôi cứu lấy gia đình của họ. Tôi cứu lấy hôn nhân của họ. Tôi cứu lấy rất nhiều khía cạnh trong cuộc đời của họ là chúng ta sẽ hướng dẫn họ, chúng ta sẽ truyền cảm hứng cho họ để họ có thể trở thành những con người phi thường, để họ có thể chạm tới cái tiềm năng thực sự của bản thân mình.\nĐôi khi thậm chí thậm chí tôi không muốn giải thích gì cả. Tôi chỉ nói với họ là người anh em hay là chị em, tôi ở đây để cứu lấy bạn đấy. Nhưng mà tôi không muốn nghe giống như là một vị thần thánh nào đó. Nhưng mà tôi thực sự tin tưởng là chúng ta là một phần của một cái sự dịch chuyển mà nó sẽ tái định nghĩa lại không chỉ là cái doanh nghiệp, cái ngành công nghiệp này mà cả nhân loại là chúng ta đã xóa đi những cái giành những cái cái thứ liên quan đến văn hóa và chúng ta không cần những cái nền tảng chúng ta không đánh giá con người về văn hóa hóa về học thức. Chúng ta không quan trọng việc họ có nói chuyện được bằng tiếng Anh hay không. Chúng tôi sẽ tìm cách để có thể giao tiếp và cái sự dịch chuyển của X9 này sẽ có thể thay đổi được thế giới. Và tôi cần các bạn tin vào điều đó. Tôi không muốn các bạn nghĩ là cái sự dịch chuyển của chúng ta là về 1800 bên trái, 1800 bên phải.\nTôi không muốn các bạn nghĩ nó theo cách như vậy. Các bạn thấy đấy, X tạo ra những cái sản phẩm bản kế hoạch thưởng để có thể giúp thay đổi nhiều cuộc đời hơn nữa. Các bạn hãy nghĩ theo một cái cách với một cái giá mà mọi người đang phải trả với hơn 650 đô họ đã không chỉ có mua được sản phẩm.\nTất cả những công ty khác trên thế giới mang lại cho các bạn chỉ một sản phẩm. Họ mang lại hai sản phẩm về cái giá trị số tiền đó. Chúng tôi muốn đảm bảo là X9 mang cái tiền thưởng lớn nhất với tất cả những cái công ty trên tất cả những cái công ty khác để giữ hệ thống của họ hạnh phúc. Chúng tôi đã làm tất cả mọi thứ. Các bạn thấy đấy, X9 không chỉ được lèo lái bởi những cái con người, không được lèo lái bởi những con người ích kỷ và chỉ suy nghĩ cho bản thân mình.\nChúng tôi không phải là những cái nhà khởi nghiệp, những cái nhà những cái người mà không có đồ ăn. Tất cả những người mà bắt đầu với Xn đều những người mà sáng lập ra X9 đều là những người đã tự do tài chính rồi. Đến đấy chính là cái vẻ đẹp của X9 là họ bắt đầu X9 họ tạo ra X9 với một cái một cái mục tiêu rất là trong sáng.\nVà cái điều mà tôi đang muốn chia sẻ với các bạn vào cái tuần thứ 10 trong cái hành trình Xl của chúng ta là tôi cần tất cả các bạn nâng tiêu chuẩn của các bạn cao hơn nữa. Tôi cần các bạn tin tưởng để mà khi mà các bạn đi ra ngoài kia và làm một cái bản thuyết trình hay là khi mà các bạn đào tạo hay là các bạn chia sẻ về down loại của các bạn hay là các bạn làm bất kỳ một cái dạng POA nào.\nTôi muốn các bạn nói và chia sẻ với mọi người theo như cái cách mà các bạn đang muốn cứu lấy họ. Bởi vì đó là mục tiêu của X9. Tất cả chúng ta sẽ có khả năng thay đổi và cứu được rất nhiều cuộc đời. Tôi hứa với các bạn điều này. Đây là cái ưu tiên hàng đầu của chúng ta và chúng tôi sẽ đảm bảo mọi người có cái cơ hội cao nhất để có thể tạo ra thu nhập.\nNhưng các bạn phải tin vào điều này. Các bạn thấy đấy. Tôi không phải Xn L. Không phải X. Các bạn là X9. Khi mà các bạn đi, khi mà các bạn nói, khi mà các bạn gặp downline của các bạn, khi mà các bạn ngồi trong quán cà phê hay là các bạn đào tạo tám khối của trụ xây dựng cơ bản hay là các bạn đào tạo welcome, các bạn chính là IGN.\nThế giới đã thay đổi rất nhiều ngày nay, không còn ai quan tâm quá nhiều tới cái thân phận của công ty. Họ muốn biết được con người đang ngồi trước họ là ai. Họ muốn biết là họ có thể tin vào bạn hay không, tin tưởng bạn hay không. Bạn tin tưởng vào họ như thế nào? Bạn sẵn sàng hy sinh vì ước mơ của họ như thế nào? Vậy thì tôi muốn nói với các bạn ngày hôm nay là điều gì sẽ quyết định được thành công của các bạn? Điều gì sẽ quyết định được thu nhập của các bạn với cái kinh doanh này? Đó là việc các bạn tin tưởng hay không?\nCác bạn có tin tưởng các bạn đã cứu được rất nhiều cuộc đời hay không? Và nếu mà tôi muốn cứu lấy một cuộc đời thì tôi sẽ làm bản thuyết trình với tất cả mọi người. Tôi sẽ không chọn, tôi sẽ không nghĩ, tôi sẽ không đánh giá. Tôi muốn cứu tất cả các cuộc đời mà bao gồm đầu tiên là gia đình của tôi, những người bạn thân nhất của tôi mà bao gồm cả những cái người xa lạ, những cái người gặp tôi vì bản kế hoạch tối thượng.\nVà tôi muốn tôi cần các bạn có cái niềm tin này là chúng ta không bắt đầu ign bởi vì chúng ta là những con người chỉ tin tưởng vào cái ngành công nghiệp này. Chúng ta ign chúng ta bắt đầu ignite là bởi vì chúng ta muốn cứu lấy rất nhiều cuộc đời. Chúng ta muốn mang lại cho mọi người một cơ hội thứ hai. Chúng ta muốn mang lại hy vọng. Chúng ta muốn truyền cảm hứng cho mọi người mơ ước một lần nữa.\nChúng ta muốn truyền sức mạnh cho những người phụ nữ, cho những người học sinh, sinh viên ở khắp nơi trên thế giới tin tưởng vào tiềm năng vô hạn của họ. Đây là cái sự thật về ngất cả mọi người, mỗi người đều có một ý kiến. Nhưng mà ai quan tâm đúng không ạ? Cái điều quan trọng nhất là cái sự thật về sự thật về tại sao chúng tôi tồn tại và chúng ta sẽ làm gì trong vòng 10 năm nữa, 20 năm nữa, 30 năm nữa đây là cái điều quan trọng mà các bạn cần phải hiểu là đừng có chờ để mà lle ra video hay là chờ tôi ra video hay là Aun de David để tới và chia sẻ với downline like của các bạn các bạn là X9. Một ai đó hỏi tôi ai là cái người quan trọng nhất trong công ty này và tất cả mọi người đều đùa và nói là Chief bởi vì Chip là upline và working upline. Anh là người quan trọng nhất không? Tôi nghĩ tôi là người ít quan trọng nhất trong cái công ty này.\nCái người quan trọng nhất trong cái hệ thống là bạn. Bạn chính là giọng nói của chúng tôi. Bạn chính là đại diện cho chúng tôi. Bạn là trái tim của chúng tôi. Bạn chính bạn những người networker đang làm việc và đứng trên mặt đất. Nếu không có các bạn thì chẳng có gì cả. Nhưng mà tôi cần phải được thuyết phục là các bạn tin tưởng.\nCác bạn tin tưởng của chúng ta là ai, tại sao chúng ta lại bắt đầu cái hành trình này, cái mục tiêu của chúng ta, cái tầm nhìn của chúng ta và sứ mệnh của chúng ta là gì? Là để cứu rất nhiều cuộc đời và thay đổi. Tôi biết là nghe có vẻ rất chính trị và có vẻ rất là to lớn nhưng nó là sự thật. Ước mơ của tôi là tôi mong một ai đó chưa từng tạo ra thu nhập trong cuộc đời của họ có thể bắt đầu ignite và tạo ra lần đầu tiên trong cuộc đời của họ.\nCái thu nhập đầu tiên từ kinh doanh của chính họ dù là 250 hay là hai hay là 500 hay là 5000 nó không quan trọng. Tôi chỉ muốn một ai đó tạo ra thu nhập mà thôi. Tôi muốn tất cả mọi người có thể tạo ra thu nhập và tin tưởng nó là điều có thể. Vậy thì cái 9 tuần vừa qua cái sự dịch chuyển nó đã bắt đầu. Chúng ta có hơn 600.000 người trong cái sự dịch chuyển của đúng chúng ta ngày nay. Tôi đã ra quyết định không ngủ, không làm bất kỳ điều gì. Cho tới khi chúng ta chạm tới 6 triệu con người. Các bạn hiểu tôi không ạ? Tất cả mọi người đều đang ăn mừng bởi vì chúng ta đã phá vỡ được rất nhiều kỷ lục, tạo ra rất nhiều lịch sử trong cái ngành công nghiệp này trong thế giới của doanh nghiệp xã hội.\nNhưng mà tôi xin lỗi, trên trái đất này có đến 8,5 tỷ người. Chúng ta còn rất nhiều việc cần phải làm. Các bạn và tôi, chúng ta còn rất nhiều việc phải làm. Vậy thì đây là cái câu hỏi mà các bạn cần phải hỏi bản thân mình một cách thành thật. Từ khi mà các bạn được ignite, các bạn hãy thành thật. Bạn đã thực sự thúc đẩy bản thân mình thật nỗ lực hay chưa? Các bạn có đang làm tối đa hóa tiềm năng của mình hay chưa? Các bạn có đang thúc đẩy bản thân mình mỗi một giây phút vượt ra khỏi vùng thoải mái của mình hay chưa? Các bạn đang được dẫn dắt bởi sự nhiệt huyết, bởi ước mơ của các bạn hay là các bạn vẫn đang sống trong sự sợ hãi? Hãy tự hỏi bản thân mình. Từ cái ngày mà các bạn được ignite, bao nhiêu DIA các bạn đã đạt được? Hãy tự hỏi bản thân mình, các bạn có thực sự nói tới tất cả các hot zone của các bạn hay là gia đình, hay là vòng tròn ảnh hưởng của mình, hay là bạn bè của mình, tất cả những cái con người mà không chắc là họ có nên được hay không, các bạn đã thực sự nói với họ từ trái tim hay chưa? Không phải là nói theo bản kế hoạch mà nói từ trái tim của các bạn.\nVậy thì hôm nay là cái đêm mà các bạn cần phải thật thà với chính bản thân mình khi mà chúng ta bắt đầu tuần thứ 10 của X9 tuần 27 của 202. Tôi biết rất nhiều người trong số các bạn. Tôi biết rất rất nhiều người. Rất nhiều người đã đi cùng tôi rất rất nhiều năm. Tôi biết tiềm năng của các bạn. Tôi biết các bạn có khả năng làm những điều gì.\nTôi biết Aun David de hơn là họ biết chính bản thân họ và tôi có thể nói với các bạn họ còn có thể làm hơn nữa. Và khi mà tôi nhìn họ tôi đã trông thấy cái việc họ max out rồi. Nhưng mà trong thực tế họ biết họ có thể làm hơn nữa. Bởi vì khi mà tôi tự đặt ra cho bản thân mình câu hỏi này, Batman anh đã làm đủ chưa? Câu trả lời là không. Tôi muốn làm hơn nữa và tôi cần tất cả các bạn nhận ra điều này.\nCác bạn thấy đấy, tôi luôn luôn tin tưởng 1 triệu vào Chúa và bản kế hoạch tối thượng của mình. Tôi không tin vào những cái sự tình cờ, tôi không tin vào may mắn. Tôi không tin vào cái sự trùng hợp. Tôi không tin vào thứ gì cả. trừ cái bản kế hoạch đối thượng với Chúa. Và tôi tin tưởng là ngại ngài ấy ngài ấy đã tôi và đã tạo ra với một cái mục tiêu vĩ đại hơn mà tôi không thể hiểu được.\nThế giới đang chờ đợi các bạn. Rất nhiều người vẫn đang chờ đợi các bạn. Các bạn biết điều này mà phải không? 99% thế giới họ đang không hạnh phúc. Họ đang rất khổ sở. Họ đang làm những cái điều mà họ không yêu, không muốn. Họ phàn nàn từng giây phút trong một ngày. Tất cả mọi người đang tìm kiếm một câu trả lời.\nTất cả mọi người đang tìm kiếm một con người tới để cứu lấy họ. Tất cả mọi người đang tìm kiếm một ngôi nhà. Và chúng ta có điều đó. Chúng ta có X9. Cuối cùng một cái hệ thống mà nói lên sự thật mang lại và thúc đẩy con người, đưa con người lên hàng đầu trao họ một cái khả năng mà không thể so sánh với bất kỳ điều gì khác.\nVậy thì tuần này tuần thứ 10, tôi biết các bạn có T những cái mục tiêu và tôi tôn trọng tất cả những điều đó. Nhưng tuần này sứ mệnh của tôi, mục tiêu của tôi, chúng ta hãy cùng cứu nhiều cuộc đời hơn nữa. Chúng ta hãy cùng cứu nhiều cuộc đời hơn nữa. Các bạn không chỉ mang cho họ một cái cơ hội bán hàng trực tiếp, các bạn đang mang cho họ những cái khả năng có thể thay đổi cuộc đời của họ.\nĐây là cái món quà vĩ đại nhất, món quà tuyệt vời nhất mà ngài ấy đã trao cho chúng ta để đưa đặt chúng ta vào cái vị trí này để có một cái điều gì đó trong tay chúng ta mà có thể thực sự tạo ảnh hưởng tới thế giới một cách tích cực. Vậy nên tôi xin các bạn với tư cách là upline của các bạn, working upline của các bạn tuần này chúng ta đừng tốn thời gian nữa.\nChúng ta đừng cầm tay và hát cung baya nữa. Chúng ta hãy tập trung. Thế giới đang chờ đợi và tôi nhận được rất nhiều tin nhắn gửi tới tôi là Chip. Tôi đang chờ được Xline, tôi có thể nói chuyện với anh được không Chip? Tôi đang chờ được Xline, anh có thể gọi tôi được không Chip? Cái presentation XL tiếp theo là gì? tôi muốn tới đó và ngồi.\nCó rất nhiều người đang chờ đợi chúng ta. Có thể là cái tôi của họ đang ngăn cản họ gọi cho bạn. Nhưng mà cái tuần này chúng ta hãy gọi cho tất cả. Tuần này chúng ta hãy sign up mẹ của chúng ta, bố của chúng ta, anh chị em của chúng ta. Bởi vì họ cần điều này giống như chúng ta cần. Vậy nên tuần này là cái tuần của sự thật.\nX9 không phải là một chiến lược. X9 không được bắt đầu dựa trên những cái mục tiêu tài chính hay là những cái chiến lược công ty hay là để tái thiết lập lại kinh ngành công nghiệp này. X9 được bắt đầu bởi vì thế giới này cần X9. Tất cả mọi người cần một cái hệ thống như chúng ta và chúng ta không thể ngồi và tận hưởng thời gian riêng của mình được nữa.\nCứu lấy nhiều cuộc đời. Ai đó đã từng nói với tôi một câu cứu rất nhiều cuộc đời cần cái sự cấp bách. Vậy thì tôi cho các bạn những lời nói của tôi là cho tới khi X chạm tới 6 triệu con người ở khắp nơi trên thế giới, Partner Manity Raja sẽ không ngủ, sẽ không làm, sẽ không nghỉ ngơi, sẽ không làm gì không cần thiết.\nBởi vì đây không phải là một cái hướng dẫn tới từ công ty hay là tới từ một apply hay là tới từ một con người nào đó mà đây thực sự là chỉ thị tới từ ngày ấy. Các bạn hiểu ý tôi không ạ? Và tôi coi nó như là một cái trách nhiệm vô cùng lớn, như là một cái đặc quyền để có thể tạo ảnh hưởng tới nhiều cuộc đời và tôi không thể làm nó một mình.\nTôi chỉ là một người đàn ông với 24 giờ đồng hồ. Tôi cần một đội quân, tôi cần một cái sự dịch chuyển, tôi cần một gia đình. Và đó là định nghĩa của X9. Vậy nên tôi yêu các bạn rất rất nhiều và tôi thực sự thực sự thực sự biết ơn là các bạn đã tin tưởng. Tuần này các bạn cần thực sự tin tưởng là X để cứu rất nhiều cuộc đời.\nTôi yêu các bạn rất rất nhiều. Tôi sẽ hẹn gặp lại gặp lại các bạn vào thứ tư và tôi cần thật nhiều thời gian để thật tha hơn với chính bản thân mình. Các bạn cần phải hiểu là chúng ta đã được chọn, đã được chọn và chúng ta cần phải nhận cái trách nhiệm đó một cách nghiêm túc. Vậy thì tuần này chúng ta hãy cùng n cả thế giới.\nHãy cứu nhiều cuộc đời hết sức có thể và giúp họ từng bước trên con đường này. Được không nào? Tôi yêu các bạn. Tôi yêu các bạn rất nhiều. Và tôi sẽ hẹn gặp lại các bạn vào thứ tư. Gia đình X của tôi. Tôi yêu các bạn. Tôi yêu các bạn rất nhiều.\nIgnw first that's the only way we grow realment in my spirit now it's time to let it show we came home to the purpose that we started with before longterm trust over chasing one more qu the ground up every leader is a partner this is ignite if you feel it come on sing along yeah once it was family we were building from the heart the ch every and every life turning into something brave was But the gravity of p off short number we were switch from mentorship mission to management show central control they decentral forader with conscious inside",
+      "videoUrl": "https://www.youtube.com/watch?v=UTX5QSDplvs",
+      "orderIndex": 1
+    },
+    {
+      "id": "lesson-2",
+      "level": 1,
+      "title": "Kỹ năng Lắng nghe Chủ động (Active Listening)",
+      "content": "Lắng nghe chủ động là nền tảng của mọi giao tiếp thành công. Trong bài học này, bạn sẽ học cách lắng nghe để thấu hiểu chứ không chỉ để phản hồi.\n\n### Các bước thực hành lắng nghe chủ động:\n- Tập trung 100% vào người nói, tránh xao nhãng.\n- Thể hiện sự chú ý qua ngôn ngữ cơ thể (gật đầu, giao tiếp bằng ánh mắt).\n- Đặt câu hỏi làm rõ và phản hồi lại nội dung bằng từ ngữ của bạn để xác nhận thông tin.",
+      "videoUrl": "https://www.youtube.com/watch?v=7sxpKhIip0E",
+      "orderIndex": 2
+    },
+    {
+      "id": "lesson-3",
+      "level": 2,
+      "title": "Quy trình Làm việc Tiêu chuẩn (SOP) cho Thành viên mới",
+      "content": "Chào mừng đến với Cấp 2: New Starter. Là một thành viên mới, việc nắm rõ quy trình vận hành tiêu chuẩn (SOP) là vô cùng quan trọng.\n\n### Nội dung bao gồm:\n- Quy chế làm việc chung của công ty.\n- Quy trình báo cáo công việc hàng ngày.\n- Cách sử dụng các công cụ làm việc nội bộ.",
+      "videoUrl": "https://www.youtube.com/watch?v=UXZMK6JmSzo",
+      "orderIndex": 1
+    },
+    {
+      "id": "lesson-4",
+      "level": 3,
+      "title": "Kỹ năng Giải quyết Vấn đề Cơ bản",
+      "content": "Chào mừng đến với Cấp 3: Junior. Giải quyết vấn đề là kỹ năng cốt lõi giúp bạn tiến xa trong công việc.\n\n### Quy trình 4 bước giải quyết vấn đề:\n1. Xác định vấn đề cốt lõi (Tìm nguyên nhân gốc rễ).\n2. Đưa ra các giải pháp thay thế.\n3. Đánh giá và lựa chọn giải pháp tốt nhất.\n4. Thực hiện giải pháp và theo dõi kết quả.",
+      "videoUrl": "https://www.youtube.com/watch?v=UXZMK6JmSzo",
+      "orderIndex": 1
+    },
+    {
+      "id": "lesson-5",
+      "level": 4,
+      "title": "Quản lý Dự án Nâng cao và Tối ưu Quy trình",
+      "content": "Chào mừng đến với Cấp 4: Senior. Ở cấp độ này, bạn không chỉ hoàn thành việc được giao mà cần có tư duy tối ưu hóa hệ thống.\n\n### Nội dung bài học:\n- Phương pháp Agile và Scrum trong quản trị dự án.\n- Cách nhận diện các điểm nghẽn (bottlenecks) trong quy trình và giải quyết chúng.\n- Quản trị tài nguyên và nhân lực hiệu quả.",
+      "videoUrl": "https://www.youtube.com/watch?v=2ALzU-iA_t4",
+      "orderIndex": 1
+    },
+    {
+      "id": "lesson-6",
+      "level": 5,
+      "title": "Tư duy Chiến lược và Phát triển Đội ngũ Kế cận",
+      "content": "Chào mừng đến với Cấp 5: Core Leader. Lãnh đạo thực sự là người biết tạo ra những người lãnh đạo kế cận.\n\n### Nội dung bài học:\n- Cách lập kế hoạch chiến lược dài hạn cho đội ngũ.\n- Nghệ thuật ủy quyền và truyền cảm hứng.\n- Đào tạo và phát triển năng lực của cấp dưới để xây dựng tổ chức bền vững.",
+      "videoUrl": "https://www.youtube.com/watch?v=pYedp7Y4Wsc",
+      "orderIndex": 1
+    }
+  ],
+  "tests": [
+    {
+      "id": "test-1",
+      "level": 1,
+      "title": "Bài kiểm tra Cấp 1: Customer",
+      "passingScore": 80,
+      "questions": [
+        {
+          "id": "q1-1",
+          "questionText": "Nguyên tắc quan trọng nhất khi phục vụ khách hàng là gì?",
+          "options": [
+            "Luôn lắng nghe và thấu hiểu nhu cầu của khách hàng",
+            "Tranh cãi để bảo vệ ý kiến cá nhân",
+            "Bỏ qua phản hồi không tốt của khách hàng",
+            "Chỉ hỗ trợ khi có yêu cầu từ cấp trên"
+          ],
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q1-2",
+          "questionText": "Lắng nghe chủ động (Active Listening) KHÔNG bao gồm hành động nào dưới đây?",
+          "options": [
+            "Tập trung hoàn toàn vào người nói",
+            "Đặt câu hỏi để làm rõ thông tin chưa rõ",
+            "Ngắt lời đối phương liên tục để bày tỏ quan điểm cá nhân",
+            "Gật đầu và phản hồi tích cực"
+          ],
+          "correctOptionIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "test-2",
+      "level": 2,
+      "title": "Bài kiểm tra Cấp 2: New Starter",
+      "passingScore": 80,
+      "questions": [
+        {
+          "id": "q2-1",
+          "questionText": "Khi gặp khó khăn và không rõ quy trình xử lý công việc mới, hành động nào là đúng đắn?",
+          "options": [
+            "Tự ý giải quyết theo ý mình để thể hiện năng lực",
+            "Hỏi người hướng dẫn (Mentor) hoặc đồng nghiệp có kinh nghiệm",
+            "Trì hoãn công việc và không báo cáo cho đến khi bị hỏi",
+            "Đổ lỗi cho quy trình phức tạp và không làm"
+          ],
+          "correctOptionIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "test-3",
+      "level": 3,
+      "title": "Bài kiểm tra Cấp 3: Junior",
+      "passingScore": 80,
+      "questions": [
+        {
+          "id": "q3-1",
+          "questionText": "Bước đầu tiên và quan trọng nhất trong quy trình 4 bước giải quyết vấn đề là gì?",
+          "options": [
+            "Triển khai giải pháp ngay lập tức",
+            "Xác định và phân tích nguyên nhân gốc rễ của vấn đề",
+            "Đổ lỗi trách nhiệm cho bộ phận liên quan",
+            "Đo lường kết quả sau khi thực hiện giải pháp"
+          ],
+          "correctOptionIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "test-4",
+      "level": 4,
+      "title": "Bài kiểm tra Cấp 4: Senior",
+      "passingScore": 80,
+      "questions": [
+        {
+          "id": "q4-1",
+          "questionText": "Một Senior cần làm gì để tối ưu hóa quy trình làm việc của nhóm?",
+          "options": [
+            "Yêu cầu mọi người làm việc thêm giờ liên tục",
+            "Phân tích, tìm ra điểm nghẽn (bottleneck) và áp dụng phương pháp cải tiến như Agile/Scrum",
+            "Để mặc đội ngũ tự xoay xở và chỉ làm phần việc cá nhân",
+            "Giảm chất lượng sản phẩm đầu ra để hoàn thành nhanh hơn"
+          ],
+          "correctOptionIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "test-5",
+      "level": 5,
+      "title": "Bài kiểm tra Cấp 5: Core Leader",
+      "passingScore": 80,
+      "questions": [
+        {
+          "id": "q5-1",
+          "questionText": "Nhiệm vụ cốt lõi của một Core Leader trong việc phát triển tổ chức bền vững là gì?",
+          "options": [
+            "Giữ kín bí quyết thành công để duy trì vị thế độc quyền",
+            "Đào tạo, ủy quyền và phát triển thế hệ lãnh đạo kế cận",
+            "Kiểm soát chi tiết mọi công việc nhỏ nhất của cấp dưới (micromanage)",
+            "Chỉ tập trung vào các kết quả ngắn hạn trước mắt"
+          ],
+          "correctOptionIndex": 1
+        }
+      ]
+    }
+  ],
+  "testSubmissions": [
+    {
+      "id": "sub-1783325286358",
+      "userId": "student-1",
+      "testId": "test-1",
+      "score": 0,
+      "passed": false,
+      "answers": {
+        "q1-1": 1,
+        "q1-2": 1
+      },
+      "submittedAt": "2026-07-06T08:08:06.358Z"
+    },
+    {
+      "id": "sub-1783325297476",
+      "userId": "student-1",
+      "testId": "test-1",
+      "score": 100,
+      "passed": true,
+      "answers": {
+        "q1-1": 0,
+        "q1-2": 2
+      },
+      "submittedAt": "2026-07-06T08:08:17.476Z"
+    }
+  ],
+  "lessonProgress": [
+    {
+      "userId": "student-1",
+      "lessonId": "lesson-1",
+      "completed": true,
+      "completedAt": "2026-07-06T08:07:59.643Z"
+    },
+    {
+      "userId": "student-1",
+      "lessonId": "lesson-2",
+      "completed": true,
+      "completedAt": "2026-07-06T08:08:26.572Z"
+    }
+  ],
+  "levelUpRequests": [
+    {
+      "id": "req-1783325307921",
+      "userId": "student-1",
+      "currentLevel": 1,
+      "requestedLevel": 2,
+      "status": "pending",
+      "createdAt": "2026-07-06T08:08:27.921Z"
+    }
+  ]
+}
