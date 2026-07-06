@@ -1,10 +1,10 @@
 const jwt = require('jsonwebtoken');
-const { readDB } = require('../db');
+const { getUserById, getLessonById, getTestById } = require('../db');
 
-const JWT_SECRET = 'lms-super-secret-key-12345'; // Trong thực tế sẽ dùng env
+const JWT_SECRET = 'lms-super-secret-key-12345';
 
-// Middleware xác thực JWT
-function authenticateToken(req, res, next) {
+// Middleware xác thực JWT bất đồng bộ
+async function authenticateToken(req, res, next) {
   const authHeader = req.headers['authorization'];
   const token = authHeader && authHeader.split(' ')[1]; // Bearer TOKEN
 
@@ -12,24 +12,28 @@ function authenticateToken(req, res, next) {
     return res.status(401).json({ message: 'Không tìm thấy token xác thực.' });
   }
 
-  jwt.verify(token, JWT_SECRET, (err, decoded) => {
+  jwt.verify(token, JWT_SECRET, async (err, decoded) => {
     if (err) {
       return res.status(403).json({ message: 'Token không hợp lệ hoặc đã hết hạn.' });
     }
 
-    const db = readDB();
-    const user = db.users.find(u => u.id === decoded.id);
+    try {
+      const user = await getUserById(decoded.id);
 
-    if (!user) {
-      return res.status(404).json({ message: 'Người dùng không tồn tại.' });
+      if (!user) {
+        return res.status(404).json({ message: 'Người dùng không tồn tại.' });
+      }
+
+      if (user.status === 'locked') {
+        return res.status(403).json({ message: 'Tài khoản của bạn đã bị khóa.' });
+      }
+
+      req.user = user;
+      next();
+    } catch (dbErr) {
+      console.error('Lỗi DB trong authenticateToken:', dbErr);
+      return res.status(500).json({ message: 'Lỗi máy chủ nội bộ khi xác thực.' });
     }
-
-    if (user.status === 'locked') {
-      return res.status(403).json({ message: 'Tài khoản của bạn đã bị khóa.' });
-    }
-
-    req.user = user;
-    next();
   });
 }
 
@@ -44,8 +48,8 @@ function adminOnly(req, res, next) {
   next();
 }
 
-// Middleware kiểm tra quyền truy cập cấp độ của bài học hoặc bài test
-function checkLevelAccess(req, res, next) {
+// Middleware kiểm tra quyền truy cập cấp độ bài học hoặc test bất đồng bộ
+async function checkLevelAccess(req, res, next) {
   if (!req.user) {
     return res.status(401).json({ message: 'Chưa xác thực.' });
   }
@@ -56,33 +60,37 @@ function checkLevelAccess(req, res, next) {
   }
 
   const { id } = req.params;
-  const db = readDB();
   const path = req.baseUrl + req.path;
 
   let targetLevel = 1;
 
-  if (path.includes('/lessons')) {
-    const lesson = db.lessons.find(l => l.id === id);
-    if (!lesson) {
-      return res.status(404).json({ message: 'Không tìm thấy bài học.' });
+  try {
+    if (path.includes('/lessons')) {
+      const lesson = await getLessonById(id);
+      if (!lesson) {
+        return res.status(404).json({ message: 'Không tìm thấy bài học.' });
+      }
+      targetLevel = lesson.level;
+    } else if (path.includes('/tests')) {
+      const test = await getTestById(id);
+      if (!test) {
+        return res.status(404).json({ message: 'Không tìm thấy bài kiểm tra.' });
+      }
+      targetLevel = test.level;
     }
-    targetLevel = lesson.level;
-  } else if (path.includes('/tests')) {
-    const test = db.tests.find(t => t.id === id);
-    if (!test) {
-      return res.status(404).json({ message: 'Không tìm thấy bài kiểm tra.' });
+
+    // Học viên được xem từ Cấp 1 đến Cấp của họ
+    if (req.user.level < targetLevel) {
+      return res.status(403).json({
+        message: `Bạn không có quyền truy cập nội dung này. Cần đạt Cấp ${targetLevel} (Hiện tại: Cấp ${req.user.level}).`
+      });
     }
-    targetLevel = test.level;
-  }
 
-  // Học viên được xem từ Cấp 1 đến Cấp của họ
-  if (req.user.level < targetLevel) {
-    return res.status(403).json({
-      message: `Bạn không có quyền truy cập nội dung này. Cần đạt Cấp ${targetLevel} (Hiện tại: Cấp ${req.user.level}).`
-    });
+    next();
+  } catch (err) {
+    console.error('Lỗi DB trong checkLevelAccess:', err);
+    return res.status(500).json({ message: 'Lỗi hệ thống khi kiểm tra cấp học.' });
   }
-
-  next();
 }
 
 module.exports = {
