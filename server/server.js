@@ -718,10 +718,13 @@ app.post('/api/admin/level-up/requests/:id/reject', authenticateToken, adminOnly
     res.status(500).json({ message: 'Lỗi từ chối nâng cấp.' });
   }
 });
+// -------------------------------------------------------------
+// 7. START SERVER & EXPORT
+// -------------------------------------------------------------
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Server LMS đang chạy tại port: ${PORT}`);
+  });
+}
 
-// -------------------------------------------------------------
-// 7. START SERVER
-// -------------------------------------------------------------
-app.listen(PORT, () => {
-  console.log(`Server LMS đang chạy tại port: ${PORT}`);
-});
+module.exports = app;
