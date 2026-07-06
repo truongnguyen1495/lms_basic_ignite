@@ -5,7 +5,9 @@
   "scripts": {
     "dev:server": "npm run dev --prefix server",
     "dev:client": "npm run dev --prefix client",
-    "dev": "npx -y concurrently \"npm run dev:server\" \"npm run dev:client\""
+    "dev": "npx -y concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "postinstall": "npm install --prefix client",
+    "build": "npm run build --prefix client"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.110.0",
